@@ -7,7 +7,6 @@ import { filter } from 'rxjs/operators';
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
   styleUrls: ['./recipes.component.css'],
-  providers: [RecipeService]
 })
 export class RecipesComponent implements OnInit {
   firstSub: Subscription;
